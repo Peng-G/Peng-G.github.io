@@ -11,11 +11,11 @@ export const footerSocials = [
     icon: youtubeIcon,
   },
   {
-    url: 'https://twitter.com/littlesticksdev',
+    url: 'https://twitter.com/',
     icon: twitterIcon,
   },
   {
-    url: 'https://github.com/littlesticksdev/odyssey-theme',
+    url: 'https://github.com/Peng-G/Peng-G.github.io',
     icon: githubIcon,
   },
 ]
