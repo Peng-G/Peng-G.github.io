@@ -1,7 +1,7 @@
 {
 	"name": "odyssey-theme",
 	"version": "1.0.0",
-	"private": false,
+	"private": true,
 	"scripts": {
 		"dev": "astro dev",
 		"start": "astro dev",
@@ -10,5 +10,21 @@
 		"format": "npx prettier -w ."
 	},
 	"devDependencies": {
+		"@tailwindcss/aspect-ratio": "^0.4.0",
+        "@tailwindcss/forms": "^0.5.0",
+        "@tailwindcss/line-clamp": "^0.3.1",
+        "@tailwindcss/typography": "^0.5.2",
+        "@types/node": "^16.11.7",
+        "astro": "^1.0.0-beta.17",
+        "globby": "^12.0.2",
+        "gray-matter": "^4.0.3",
+        "lunr": "^2.3.9",
+        "tailwindcss": "^3.0.24",
+        "typescript": "^4.3.5"
+	},
+	"dependencies": {
+		"@astrojs/sitemap": "^0.1.0",
+		"@astrojs/svelte": "^0.1.1",
+		"@astrojs/tailwind": "^0.2.0"
 	}
 }
